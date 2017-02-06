@@ -1,3 +1,18 @@
+## Usage
+
+Source the file for the plot you want to generate. e.g. to generate plot1:
+
+source("Plot1.R")
+
+The first file you source will
+* if necessary, download the zip file from internet and unzip it
+* create the necessary data frames in the environment
+* cleanup the data
+
+So the first one may run slow. Subsequent runs will be fast as they use the same data.
+
+
+
 ## Introduction
 
 This assignment uses data from
